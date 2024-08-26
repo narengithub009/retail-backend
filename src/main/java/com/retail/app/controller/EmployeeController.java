@@ -25,7 +25,7 @@ public class EmployeeController {
     public ResponseEntity<Employee> registerEmployee(@RequestBody Employee employee) {
 
         Employee savedEmployee = employeeService.saveEmployee(employee);
-        MDC.put("UserId", savedEmployee.getName());
+       // MDC.put("UserId", savedEmployee.getName());
         logger.info("Saved Employee : " + savedEmployee.getName());
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED);
     }
