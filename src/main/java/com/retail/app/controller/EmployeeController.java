@@ -2,6 +2,8 @@ package com.retail.app.controller;
 
 import com.retail.app.model.Employee;
 import com.retail.app.service.EmployeeService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +16,7 @@ import java.util.List;
 @RequestMapping("/api/employees/")
 public class EmployeeController {
 
+    private static Logger logger= LoggerFactory.getLogger(EmployeeController.class);
     @Autowired
     private EmployeeService employeeService;
 
@@ -21,7 +24,7 @@ public class EmployeeController {
     public ResponseEntity<Employee> registerEmployee(@RequestBody Employee employee){
 
         Employee savedEmployee = employeeService.saveEmployee(employee);
-
+        logger.info("Saved Employee : "+savedEmployee.getName());
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED);
     }
 
