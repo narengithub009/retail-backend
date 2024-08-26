@@ -79,6 +79,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>retail-backend</finalName>
 	</build>
 
 </project>
