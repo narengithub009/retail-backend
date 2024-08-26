@@ -27,3 +27,134 @@
 2024-08-26T13:05:28.598+05:30  INFO 15156 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-26T13:05:28.603+05:30  INFO 15156 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-08-26T13:05:28.618+05:30  INFO 15156 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T13:28:54.091+05:30  INFO 18852 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Starting RetailBackendApplication using Java 17.0.9 with PID 18852 (C:\Users\naren\Downloads\retail-backend\retail-backend\target\classes started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-08-26T13:28:54.095+05:30  INFO 18852 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T13:28:55.903+05:30  INFO 18852 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T13:28:55.999+05:30  INFO 18852 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-08-26T13:28:57.586+05:30  INFO 18852 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-08-26T13:28:57.601+05:30  INFO 18852 --- [retail-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T13:28:57.602+05:30  INFO 18852 --- [retail-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T13:28:57.689+05:30  INFO 18852 --- [retail-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T13:28:57.690+05:30  INFO 18852 --- [retail-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3512 ms
+2024-08-26T13:28:58.234+05:30  INFO 18852 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T13:28:58.353+05:30  INFO 18852 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T13:28:58.422+05:30  INFO 18852 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T13:28:59.022+05:30  INFO 18852 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T13:28:59.077+05:30  INFO 18852 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T13:28:59.503+05:30  INFO 18852 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73a5d86c
+2024-08-26T13:28:59.505+05:30  INFO 18852 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T13:29:00.816+05:30  INFO 18852 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T13:29:00.908+05:30  INFO 18852 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:29:01.595+05:30  WARN 18852 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T13:29:02.702+05:30  INFO 18852 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-26T13:29:02.831+05:30  INFO 18852 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-08-26T13:29:02.850+05:30  INFO 18852 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Started RetailBackendApplication in 9.461 seconds (process running for 10.064)
+2024-08-26T13:29:13.366+05:30  INFO 18852 --- [retail-backend] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T13:29:13.367+05:30  INFO 18852 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T13:29:13.369+05:30  INFO 18852 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-26T13:29:14.395+05:30  INFO 18852 --- [retail-backend] [http-nio-8181-exec-2] c.r.app.controller.EmployeeController    : Saved Employee : XYZ1234
+2024-08-26T13:32:53.567+05:30  INFO 18852 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:32:53.572+05:30  INFO 18852 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T13:32:53.585+05:30  INFO 18852 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T13:32:58.781+05:30  INFO 14196 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Starting RetailBackendApplication using Java 17.0.9 with PID 14196 (C:\Users\naren\Downloads\retail-backend\retail-backend\target\classes started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-08-26T13:32:58.784+05:30  INFO 14196 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T13:33:00.727+05:30  INFO 14196 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T13:33:00.821+05:30  INFO 14196 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interface.
+2024-08-26T13:33:02.055+05:30  INFO 14196 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-08-26T13:33:02.077+05:30  INFO 14196 --- [retail-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T13:33:02.078+05:30  INFO 14196 --- [retail-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T13:33:02.189+05:30  INFO 14196 --- [retail-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T13:33:02.190+05:30  INFO 14196 --- [retail-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3258 ms
+2024-08-26T13:33:02.841+05:30  INFO 14196 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T13:33:02.946+05:30  INFO 14196 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T13:33:03.006+05:30  INFO 14196 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T13:33:03.515+05:30  INFO 14196 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T13:33:03.563+05:30  INFO 14196 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T13:33:04.150+05:30  INFO 14196 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42066f0d
+2024-08-26T13:33:04.151+05:30  INFO 14196 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T13:33:05.427+05:30  INFO 14196 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T13:33:05.475+05:30  INFO 14196 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:33:06.033+05:30  WARN 14196 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T13:33:06.962+05:30  INFO 14196 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-26T13:33:07.086+05:30  INFO 14196 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-08-26T13:33:07.106+05:30  INFO 14196 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Started RetailBackendApplication in 9.012 seconds (process running for 9.545)
+2024-08-26T13:33:17.200+05:30  INFO 14196 --- [retail-backend] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T13:33:17.202+05:30  INFO 14196 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T13:33:17.207+05:30  INFO 14196 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-26T13:33:17.680+05:30  INFO 14196 --- [retail-backend] [http-nio-8181-exec-2] c.r.app.controller.EmployeeController    : Saved Employee : XYZ12345
+2024-08-26T13:34:30.584+05:30  INFO 14196 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:34:30.589+05:30  INFO 14196 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T13:34:30.614+05:30  INFO 14196 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T13:34:33.707+05:30  INFO 20512 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Starting RetailBackendApplication using Java 17.0.9 with PID 20512 (C:\Users\naren\Downloads\retail-backend\retail-backend\target\classes started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-08-26T13:34:33.711+05:30  INFO 20512 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T13:34:35.623+05:30  INFO 20512 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T13:34:35.715+05:30  INFO 20512 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2024-08-26T13:34:36.918+05:30  INFO 20512 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-08-26T13:34:36.936+05:30  INFO 20512 --- [retail-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T13:34:36.936+05:30  INFO 20512 --- [retail-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T13:34:37.040+05:30  INFO 20512 --- [retail-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T13:34:37.041+05:30  INFO 20512 --- [retail-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3254 ms
+2024-08-26T13:34:37.703+05:30  INFO 20512 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T13:34:37.812+05:30  INFO 20512 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T13:34:37.874+05:30  INFO 20512 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T13:34:38.252+05:30  INFO 20512 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T13:34:38.295+05:30  INFO 20512 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T13:34:38.720+05:30  INFO 20512 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75f8d9b0
+2024-08-26T13:34:38.723+05:30  INFO 20512 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T13:34:40.026+05:30  INFO 20512 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T13:34:40.082+05:30  INFO 20512 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:34:40.660+05:30  WARN 20512 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T13:34:41.791+05:30  INFO 20512 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-26T13:34:41.907+05:30  INFO 20512 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-08-26T13:34:41.926+05:30  INFO 20512 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Started RetailBackendApplication in 8.787 seconds (process running for 9.339)
+2024-08-26T13:34:50.244+05:30  INFO 20512 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:34:50.246+05:30  INFO 20512 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T13:34:50.259+05:30  INFO 20512 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T13:34:55.565+05:30  INFO 828 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Starting RetailBackendApplication using Java 17.0.9 with PID 828 (C:\Users\naren\Downloads\retail-backend\retail-backend\target\classes started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-08-26T13:34:55.569+05:30  INFO 828 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T13:34:57.796+05:30  INFO 828 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T13:34:57.881+05:30  INFO 828 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-08-26T13:34:59.114+05:30  INFO 828 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-08-26T13:34:59.134+05:30  INFO 828 --- [retail-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T13:34:59.135+05:30  INFO 828 --- [retail-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-26T13:34:59.240+05:30  INFO 828 --- [retail-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T13:34:59.242+05:30  INFO 828 --- [retail-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3525 ms
+2024-08-26T13:34:59.937+05:30  INFO 828 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T13:35:00.014+05:30  INFO 828 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T13:35:00.076+05:30  INFO 828 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T13:35:00.651+05:30  INFO 828 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T13:35:00.713+05:30  INFO 828 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T13:35:01.230+05:30  INFO 828 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7981963f
+2024-08-26T13:35:01.232+05:30  INFO 828 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T13:35:02.844+05:30  INFO 828 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T13:35:02.906+05:30  INFO 828 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:35:03.542+05:30  WARN 828 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T13:35:04.783+05:30  INFO 828 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-26T13:35:04.957+05:30  INFO 828 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-08-26T13:35:04.977+05:30  INFO 828 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Started RetailBackendApplication in 10.037 seconds (process running for 10.695)
+2024-08-26T13:35:08.228+05:30  INFO 828 --- [retail-backend] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T13:35:08.229+05:30  INFO 828 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T13:35:08.231+05:30  INFO 828 --- [retail-backend] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-26T13:35:08.537+05:30  INFO 828 --- [retail-backend] [http-nio-8181-exec-2] c.r.app.controller.EmployeeController    : Saved Employee : XYZ123456
+2024-08-26T13:44:05.772+05:30  INFO 828 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T13:44:05.780+05:30  INFO 828 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T13:44:05.834+05:30  INFO 828 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26T14:37:33.755+05:30  INFO 21676 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Starting RetailBackendApplicationTests using Java 17.0.9 with PID 21676 (started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-08-26T14:37:33.759+05:30  INFO 21676 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-08-26T14:37:35.811+05:30  INFO 21676 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26T14:37:35.870+05:30  INFO 21676 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-08-26T14:37:37.858+05:30  INFO 21676 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26T14:37:38.048+05:30  INFO 21676 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-26T14:37:38.121+05:30  INFO 21676 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-26T14:37:38.945+05:30  INFO 21676 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-26T14:37:39.003+05:30  INFO 21676 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26T14:37:39.893+05:30  INFO 21676 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@335972a5
+2024-08-26T14:37:39.898+05:30  INFO 21676 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26T14:37:41.783+05:30  INFO 21676 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-26T14:37:41.884+05:30  INFO 21676 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T14:37:42.932+05:30  WARN 21676 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26T14:37:44.584+05:30  INFO 21676 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-26T14:37:44.694+05:30  INFO 21676 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Started RetailBackendApplicationTests in 11.343 seconds (process running for 14.032)
+2024-08-26T14:37:45.735+05:30  INFO 21676 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26T14:37:45.743+05:30  INFO 21676 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26T14:37:45.758+05:30  INFO 21676 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
