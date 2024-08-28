@@ -1,5 +1,6 @@
 package com.retail.app.service;
 
+import com.retail.app.exception.EmployeeNotFoundException;
 import com.retail.app.model.Employee;
 import com.retail.app.repositry.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,11 @@ public class EmployeeService {
 
     public List<Employee> FindAllEmployees(){
 
-        return employeeRepository.findAll();
+        List<Employee> employees=employeeRepository.findAll();
+        if(employees.isEmpty()){
+            throw new EmployeeNotFoundException("No employees found...");
+        }
+        return employees;
     }
 
 }
