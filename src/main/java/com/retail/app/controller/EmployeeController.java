@@ -26,7 +26,7 @@ public class EmployeeController {
 
         Employee savedEmployee = employeeService.saveEmployee(employee);
        // MDC.put("UserId", savedEmployee.getName());
-        logger.info("Saved Employee : " + savedEmployee.getName());
+        logger.info("Saved Employee details : " + savedEmployee.getName());
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED);
     }
 
