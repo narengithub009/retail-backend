@@ -12,7 +12,7 @@ public class GlobalExceptionHandler {
     private static final Logger LOGGER= LoggerFactory.getLogger(GlobalExceptionHandler.class);
     @ExceptionHandler(EmployeeNotFoundException.class)
     public final ResponseEntity<String> handleEmployeeNotFoundException(EmployeeNotFoundException ex){
-        LOGGER.error("Employee Details are not found "+ex.getMessage(),ex);
+        LOGGER.error("Employees Details are not found "+ex.getMessage(),ex);
         return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 }
