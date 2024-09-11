@@ -1,30 +1,127 @@
-2024-09-04T10:02:47.493+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : Starting EmployeeControllerTest using Java 17.0.9 with PID 8592 (started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
-2024-09-04T10:02:47.501+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-09-04T10:02:50.318+05:30  INFO 8592 --- [retail-backend] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-09-04T10:02:50.320+05:30  INFO 8592 --- [retail-backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-09-04T10:02:50.323+05:30  INFO 8592 --- [retail-backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-09-04T10:02:50.354+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : Started EmployeeControllerTest in 3.554 seconds (process running for 4.84)
-2024-09-04T10:02:50.476+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.controller.EmployeeController    : Employee Object : 
-2024-09-04T10:02:50.888+05:30  INFO 8592 --- [retail-backend] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.retail.app.RetailBackendApplicationTests]: RetailBackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-09-04T10:02:50.924+05:30  INFO 8592 --- [retail-backend] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.retail.app.RetailBackendApplication for test class com.retail.app.RetailBackendApplicationTests
-2024-09-04T10:02:51.013+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Starting RetailBackendApplicationTests using Java 17.0.9 with PID 8592 (started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
-2024-09-04T10:02:51.013+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-09-04T10:02:52.010+05:30  INFO 8592 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-04T10:02:52.061+05:30  INFO 8592 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
-2024-09-04T10:02:52.715+05:30  INFO 8592 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-04T10:02:52.799+05:30  INFO 8592 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-09-04T10:02:52.854+05:30  INFO 8592 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-09-04T10:02:53.011+05:30  INFO 8592 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-04T10:02:53.062+05:30  INFO 8592 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-04T10:02:53.741+05:30  INFO 8592 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e38329d
-2024-09-04T10:02:53.745+05:30  INFO 8592 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-04T10:02:53.831+05:30  WARN 8592 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-09-04T10:02:53.834+05:30  WARN 8592 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-09-04T10:02:54.898+05:30  INFO 8592 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-09-04T10:02:55.022+05:30  INFO 8592 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-09-04T10:02:55.809+05:30  WARN 8592 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-09-04T10:02:57.281+05:30  INFO 8592 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2024-09-04T10:02:57.392+05:30  INFO 8592 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Started RetailBackendApplicationTests in 6.442 seconds (process running for 11.878)
-2024-09-04T10:02:57.548+05:30  INFO 8592 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-09-04T10:02:57.585+05:30  INFO 8592 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-09-04T10:02:57.654+05:30  INFO 8592 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-10T15:22:51.590+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : Starting EmployeeControllerTest using Java 17.0.9 with PID 1272 (started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-09-10T15:22:51.602+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-09-10T15:22:55.212+05:30  INFO 1272 --- [retail-backend] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-10T15:22:55.213+05:30  INFO 1272 --- [retail-backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-10T15:22:55.216+05:30  INFO 1272 --- [retail-backend] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-09-10T15:22:55.252+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.domain.EmployeeControllerTest    : Started EmployeeControllerTest in 4.334 seconds (process running for 5.992)
+2024-09-10T15:22:55.414+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.controller.EmployeeController    : Employee Object : 
+2024-09-10T15:22:55.866+05:30  INFO 1272 --- [retail-backend] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.retail.app.RetailBackendApplicationTests]: RetailBackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-10T15:22:55.889+05:30  INFO 1272 --- [retail-backend] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.retail.app.RetailBackendApplication for test class com.retail.app.RetailBackendApplicationTests
+2024-09-10T15:22:55.953+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Starting RetailBackendApplicationTests using Java 17.0.9 with PID 1272 (started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-09-10T15:22:55.954+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-09-10T15:22:57.542+05:30  INFO 1272 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10T15:22:57.603+05:30  INFO 1272 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-09-10T15:22:58.593+05:30  INFO 1272 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10T15:22:58.763+05:30  INFO 1272 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-10T15:22:58.852+05:30  INFO 1272 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-10T15:22:59.034+05:30  INFO 1272 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10T15:22:59.083+05:30  INFO 1272 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-10T15:22:59.759+05:30  INFO 1272 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f41f259
+2024-09-10T15:22:59.765+05:30  INFO 1272 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-10T15:22:59.857+05:30  WARN 1272 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-10T15:22:59.859+05:30  WARN 1272 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-10T15:23:01.428+05:30  INFO 1272 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-10T15:23:01.571+05:30  INFO 1272 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T15:23:02.924+05:30  WARN 1272 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10T15:23:04.639+05:30  INFO 1272 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-10T15:23:04.761+05:30  INFO 1272 --- [retail-backend] [main] c.r.app.RetailBackendApplicationTests    : Started RetailBackendApplicationTests in 8.858 seconds (process running for 15.501)
+2024-09-10T15:23:04.908+05:30  INFO 1272 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T15:23:04.925+05:30  INFO 1272 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-10T15:23:04.995+05:30  INFO 1272 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-10T16:26:24.257+05:30  INFO 16844 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Starting RetailBackendApplication using Java 17.0.9 with PID 16844 (C:\Users\naren\Downloads\retail-backend\retail-backend\target\classes started by naren in C:\Users\naren\Downloads\retail-backend\retail-backend)
+2024-09-10T16:26:24.269+05:30  INFO 16844 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-10T16:26:26.641+05:30  INFO 16844 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10T16:26:26.757+05:30  INFO 16844 --- [retail-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-09-10T16:26:28.563+05:30  INFO 16844 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-09-10T16:26:28.585+05:30  INFO 16844 --- [retail-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-10T16:26:28.586+05:30  INFO 16844 --- [retail-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-10T16:26:28.752+05:30  INFO 16844 --- [retail-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-10T16:26:28.754+05:30  INFO 16844 --- [retail-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4363 ms
+2024-09-10T16:26:29.497+05:30  INFO 16844 --- [retail-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10T16:26:29.643+05:30  INFO 16844 --- [retail-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-10T16:26:29.753+05:30  INFO 16844 --- [retail-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-10T16:26:30.392+05:30  INFO 16844 --- [retail-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10T16:26:30.450+05:30  INFO 16844 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-10T16:26:30.972+05:30  INFO 16844 --- [retail-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62410e1f
+2024-09-10T16:26:30.974+05:30  INFO 16844 --- [retail-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-10T16:26:31.057+05:30  WARN 16844 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-10T16:26:31.058+05:30  WARN 16844 --- [retail-backend] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-10T16:26:32.521+05:30  INFO 16844 --- [retail-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-10T16:26:32.617+05:30  INFO 16844 --- [retail-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T16:26:33.689+05:30  WARN 16844 --- [retail-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10T16:26:35.634+05:30  INFO 16844 --- [retail-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-10T16:26:35.813+05:30  INFO 16844 --- [retail-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-09-10T16:26:35.841+05:30  INFO 16844 --- [retail-backend] [main] c.retail.app.RetailBackendApplication    : Started RetailBackendApplication in 12.472 seconds (process running for 13.375)
+2024-09-10T16:32:22.332+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-10T16:32:22.348+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-10T16:32:22.488+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 137 ms
+2024-09-10T16:32:22.990+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-1] c.r.app.controller.EmployeeController    : Employee Object : 
+2024-09-10T16:32:23.986+05:30 ERROR 16844 --- [retail-backend] [http-nio-8181-exec-1] c.r.a.exception.GlobalExceptionHandler   : Employees Details are not found No employees found...
+
+com.retail.app.exception.EmployeeNotFoundException: No employees found...
+	at com.retail.app.service.EmployeeService.FindAllEmployees(EmployeeService.java:25)
+	at com.retail.app.controller.EmployeeController.getAllEmployees(EmployeeController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.retail.app.util.MDCFilter.doFilterInternal(MDCFilter.java:24)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2024-09-10T16:32:29.789+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-5] c.r.app.controller.EmployeeController    : Saved Employee Name is  : Anny112
+2024-09-10T16:32:31.790+05:30  INFO 16844 --- [retail-backend] [http-nio-8181-exec-6] c.r.app.controller.EmployeeController    : Employee Object : 
+2024-09-10T16:51:58.368+05:30  INFO 16844 --- [retail-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T16:51:58.534+05:30  INFO 16844 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-10T16:51:58.674+05:30  INFO 16844 --- [retail-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
