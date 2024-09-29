@@ -4,12 +4,13 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.bind.ConstructorBinding;
+import org.springframework.context.annotation.Scope;
 import org.springframework.validation.annotation.Validated;
 
 @ConfigurationProperties(prefix = "app")
 //@ConstructorBinding
 @Validated
-
+@Scope("prototype")
 public class ApplicationProperties {
 
     /*private String version;
